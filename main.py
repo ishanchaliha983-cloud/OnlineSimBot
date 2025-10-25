@@ -23,7 +23,7 @@ from src.utils import User
 from src.vneng import VNEngine
 
 # Initialize the bot token
-bot: ClassVar[Any] = telebot.TeleBot(utils.get_token())
+bot: ClassVar[Any] = telebot.TeleBot(utils.get_token(8337007309:AAFWk5GpVEMGLNib4OpRL_tZb1svfMwq3ng))
 print(f"\33[1;36m::\33[m Bot is running with ID: {bot.get_me().id}")
 
 
